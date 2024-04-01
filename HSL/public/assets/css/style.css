@@ -1,0 +1,156 @@
+/* Reset css*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+}
+
+.img-logo {
+    width: 80%;
+}
+
+i {
+    opacity: 0.5;
+}
+
+b {
+    opacity: 0.6;
+}
+
+.nav .logo {
+    margin-left: 10%;
+    margin-right: 45%;
+}
+.nav .account {
+    display: contents;
+}
+
+.nav .account .ctn-account{
+    text-align: right;
+    margin: 30px 10px;
+}
+
+.nav .account .ctn-img{
+    margin-right: 10%;
+}
+
+@media (max-width: 1268px) {
+    .nav .logo {
+        margin-right: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav .logo {
+        margin-right: 35%;
+    }
+}
+
+@media (max-width: 850px) {
+    .nav .logo {
+        margin-right: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav .logo {
+        margin-right: 15%;
+    }
+}
+
+.title  {
+    height: 270px;
+    background-color: rgb(30, 180, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.title .title-header {
+    opacity: 0.9;
+}
+.title .title-header h1 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+.title .title-header h5 {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.content .content-body {
+    padding: 4% 21%;
+}
+
+.content .content-body p {
+    opacity: 0.4;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.vote {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid;
+}
+
+.btn-vote {
+    width: 280px;
+    height: 50px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 20px;
+}
+
+.btn-vote-left {
+    background-color: rgb(45, 134, 223);
+    color: rgba(255, 255, 255, 0.797);
+    border-bottom: 3px solid rgb(7, 106, 205);
+}
+
+.btn-vote-right {
+    background-color: rgb(6, 198, 112);
+    color: rgba(255, 255, 255, 0.797);
+    border-bottom: 3px solid rgb(6, 142, 65);
+}
+
+.footer {
+    padding: 1% 20% 2%;
+}
+
+.footer .footer-content {
+    display: block;
+    text-align: center;
+    opacity: 0.5;
+    margin: 20px 0;
+}
+
+.footer .footer-content p {
+    font-size: 0.85rem;
+}
+
+.footer .copyright {
+    display: block;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 0.85rem;
+}
+.mx-2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
